@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="news_zhuanti">#f00</color>
+    <color name="fragment_news_futitle">#9f9f9f</color>
+    <color name="fragment_top_title">#343434</color>
+    <color name="fragment_top_tablelayoutcolor">#AFAFAF</color>
+    <color name="fragment_news_backcolor">#f6f6f6</color>
+    <color name="fragment_news_tablelayoutcolor">#f6f6f6</color>
+
+    <color name="fragment_news_item_normal">#ffffff</color>
+    <color name="fragment_news_item_pressed">#c0c0c0</color>
+    <color name="fragment_news_item_line">#f2f2f2</color>
+    <color name="colorWYRed">#eb413d</color>
+
+    <color name="colorTextUnSelector">#64fdfdfd</color>
+    <color name="colorcontentbg">#efeded</color>
+
+
+
+    <color name="colorTextNormal">#bcbaba</color>
+
+    <color name="colorTextSelector">#fdfdfd</color>
+
+    <color name="colorTextBlack">#181818</color>
+
+    <color name="colorbg">#F6F6F6</color>
+
+    <color name="colorbgPressed">#DEDEDE</color>
+
+    <color name="colorgray">#999999</color>
+
+    <color name="colorblack">#000</color>
+</resources>

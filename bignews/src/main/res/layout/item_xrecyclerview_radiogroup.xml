@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/video_group"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:background="#f7f3f3"
+    android:orientation="horizontal"
+    android:layout_marginBottom="20dp"
+    android:paddingBottom="25dp"
+    android:paddingTop="20dp" >
+    <RadioButton
+        android:text="奇葩"
+        style="@style/radiobutton" />
+    <RadioButton
+        android:text="萌物"
+        style="@style/radiobutton" />
+    <RadioButton
+        android:text="美女"
+        style="@style/radiobutton" />
+    <RadioButton
+        android:text="精品"
+        style="@style/radiobutton" />
+</RadioGroup>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.read.activity"
+    >
+    <item
+        xmlns:big="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/menu_item_replaycount"
+        big:actionLayout="@layout/item_tv_menu"
+        big:showAsAction="always"
+        android:orderInCategory="0"
+        />
+    <item
+        android:id="@+id/menu_share"
+        android:icon="@mipmap/share"
+        android:orderInCategory="1"
+        android:showAsAction="withText"
+        android:title="分享" />
+    <item
+        android:id="@+id/menu_collection"
+        android:icon="@mipmap/collection"
+        android:orderInCategory="2"
+        android:showAsAction="withText"
+        android:title="收藏" />
+    <item
+        android:id="@+id/menu_screencapture"
+        android:icon="@mipmap/screen_capture"
+        android:orderInCategory="3"
+        android:showAsAction="withText"
+        android:title="态度截屏" />
+    <item
+        android:id="@+id/menu_textstyle"
+        android:icon="@mipmap/txtsize"
+        android:orderInCategory="1"
+        android:showAsAction="withText"
+        android:title="正文样式" />
+    <item
+        android:id="@+id/menu_daynight"
+        android:icon="@mipmap/day_night"
+        android:orderInCategory="5"
+        android:showAsAction="withText"
+        android:title="夜间模式" />
+</menu>

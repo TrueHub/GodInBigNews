@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_authorarticle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@drawable/readfragment_rcv_item">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@color/colorbg"
+            >
+
+            <ImageView
+                android:id="@+id/iv_articleimg"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:src="@drawable/no_loading" />
+            <TextView
+                android:id="@+id/tv_authorinfo_articletitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_normal"
+                android:textColor="@color/colorblack"
+                android:text="title"
+                android:layout_marginLeft="5dp"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/iv_articleimg"
+                android:layout_toEndOf="@+id/iv_articleimg"
+                android:layout_above="@+id/tv_authorarticle_ptime" />
+            <TextView
+                android:id="@+id/tv_authorarticle_ptime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="time"
+                android:textColor="@color/colorTextNormal"
+                android:textSize="15sp"
+                android:layout_alignBottom="@+id/iv_articleimg"
+                android:layout_alignRight="@+id/tv_authorinfo_articletitle"
+                android:layout_alignEnd="@+id/tv_authorinfo_articletitle" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

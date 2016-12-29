@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/private_linear"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/actionbar_background"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginLeft="-10dp"
+            android:layout_gravity="left|center_vertical"
+            android:id="@+id/fragment_news_image_main"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:src="@drawable/logo_bignews"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:background="@color/fragment_news_backcolor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linear_this"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal">
+
+
+            <HorizontalScrollView
+                android:id="@+id/fragment_news_scrollview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scrollbars="none">
+
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/fragment_news_tablayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    app:tabGravity="center"
+                    app:tabMode="fixed">
+
+                </android.support.design.widget.TabLayout>
+            </HorizontalScrollView>
+
+            <CheckBox
+                android:id="@+id/fragment_news_menus"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/fragment_scroll"
+                android:button="@null"
+                android:clickable="true" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/fragment_news_change_Linearlayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/linear_this"
+            android:background="#ffffffff"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorTextNormal"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="点击删除栏目|长按移动" />
+
+            <com.news.drag.DragGridView
+                android:id="@+id/fragment_news_Recycler1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:numColumns="4">
+
+            </com.news.drag.DragGridView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorTextNormal"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="点击添加更多栏目" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/fragment_news_Recycler2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+            </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/fragment_news_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/linear_this">
+
+        </android.support.v4.view.ViewPager>
+    </RelativeLayout>
+</LinearLayout>

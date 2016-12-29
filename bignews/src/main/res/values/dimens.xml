@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="text_normal">20sp</dimen>
+    <dimen name="fragment_news_title">17sp</dimen>
+    <dimen name="fragment_news_image_height">130dp</dimen>
+    <dimen name="fragment_news_margentop_title">10dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="news_imagewidth">100dp</dimen>
+    <dimen name="news_imageheight">90dp</dimen>
+    <dimen name="news_titlesize">18sp</dimen>
+</resources>

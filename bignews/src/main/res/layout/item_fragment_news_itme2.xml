@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingLeft="2dp"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:background="@drawable/fragment_news_item_click"
+    android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="标题"
+                    android:textColor="@color/fragment_top_title"
+                    android:textSize="@dimen/fragment_news_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/itme_fragment_news_item2_title"/>
+                <View
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/fragment_news_futitle"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:text="时间"
+                    android:textColor="@color/fragment_news_futitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/itme_fragment_news_item2_time"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_weight="3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/itme_fragment_news_item2_img1"
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_weight="1"
+                    android:layout_width="@dimen/news_imagewidth"
+                    android:paddingRight="5dp"
+                    android:layout_height="@dimen/fragment_news_image_height" />
+                <ImageView
+                    android:id="@+id/itme_fragment_news_item2_img2"
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_width="@dimen/news_imagewidth"
+                    android:paddingRight="5dp"
+                    android:layout_weight="1"
+                    android:layout_height="@dimen/fragment_news_image_height" />
+                <ImageView
+                    android:id="@+id/itme_fragment_news_item2_img3"
+                    android:src="@mipmap/ic_launcher"
+                    android:paddingRight="5dp"
+                    android:layout_weight="1"
+                    android:layout_width="@dimen/news_imagewidth"
+                    android:layout_height="@dimen/fragment_news_image_height" />
+            </LinearLayout>
+        </LinearLayout>
+    <View
+        android:layout_marginTop="5dp"
+        android:background="@color/fragment_news_item_line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+</LinearLayout>

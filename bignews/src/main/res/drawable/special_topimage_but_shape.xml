@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape >
+            <stroke android:color="@color/colorblack" android:width="1px"/>
+            <solid android:color="@color/cardview_shadow_start_color"/>
+            <corners android:radius="6dp"/>
+        </shape>
+    </item>
+    <item android:state_pressed="false">
+        <shape>
+            <stroke android:color="@color/colorblack" android:width="1px"/>
+            <corners android:radius="6dp"/>
+        </shape>
+    </item>
+
+
+</selector>

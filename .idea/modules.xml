@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BigNews.iml" filepath="$PROJECT_DIR$/BigNews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bignews/bignews.iml" filepath="$PROJECT_DIR$/bignews/bignews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xrecyclerview/xrecyclerview.iml" filepath="$PROJECT_DIR$/xrecyclerview/xrecyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xrecyclerview2/xrecyclerview2.iml" filepath="$PROJECT_DIR$/xrecyclerview2/xrecyclerview2.iml" />
+    </modules>
+  </component>
+</project>
